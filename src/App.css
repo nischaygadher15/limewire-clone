@@ -1,3 +1,5 @@
-body {
-  font-family: "DM Sans", sans-serif;
+.loginBG {
+  background: url(/src/assets/images/imgi_3_auth-bg-DZLVjUzv.svg) center
+    no-repeat;
+  background-size: cover;
 }

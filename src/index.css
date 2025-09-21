@@ -1,12 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@layer utilities {
-  .font-dmsans {
-    font-family: "DM Sans", sans-serif;
-  }
-}
-
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -14,6 +8,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --color-limeWire: #00934b;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -45,6 +40,7 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --font-dmsans: "DM Sans", sans-serif;
 }
 
 :root {
